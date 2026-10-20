@@ -28,6 +28,6 @@ jobs:
         run: |
           echo "셸이 본 것: $(uname -s)"
           echo "Actions가 준 것: ${{ runner.os }}"
-          
+      # 미션 1 더알아보기
       - name: 실행 번호
         run: echo "이 워크플로의 ${{ github.run_number }}번째 실행"
