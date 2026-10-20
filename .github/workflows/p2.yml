@@ -8,7 +8,7 @@ env:
   STAGE: workflow
 jobs:
   no-job-env:
-    runs-on: ubuntu 24.04
+    runs-on: ubuntu-24.04
     steps:
       - name: 워크플로 층만 있음
         run: echo "STAGE=$STAGE"
