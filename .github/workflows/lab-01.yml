@@ -22,4 +22,4 @@ jobs:
       - name: 코드 받아오기
         uses: actions/checkout@v7
       - name: 코드 받아온 후 파일 목록
-        run: la -la
+        run: ls -la
