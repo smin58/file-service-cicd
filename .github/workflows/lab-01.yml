@@ -23,3 +23,11 @@ jobs:
         uses: actions/checkout@v7
       - name: 코드 받아온 후 파일 목록
         run: ls -la
+
+      - name: 두 가지 OS 확인
+        run: |
+          echo "셸이 본 것: $(uname -s)"
+          echo "Actions가 준 것: ${{ runner.os }}"
+          
+      - name: 실행 번호
+        run: echo "이 워크플로의 ${{ github.run_number }}번째 실행"
