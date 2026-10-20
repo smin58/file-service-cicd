@@ -3,7 +3,7 @@ name: p1
 on:
   push:
     paths:
-      - .github/workflows/lab-01.yml
+      - .github/workflows/p1.yml
   workflow_dispatch:
 jobs:
   context:
