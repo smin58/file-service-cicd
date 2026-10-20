@@ -2,7 +2,7 @@ name: p2
 on:
   push:
     paths:
-      - .github/workflosw/p2.yml
+      - .github/workflows/p2.yml
     workflow_dispatch:
 env:
   STAGE: workflow
